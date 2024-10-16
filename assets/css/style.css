@@ -1,0 +1,76 @@
+body {
+  width: 450px;
+  margin: 0 auto;
+  background-color: rgb(255, 205, 204);
+  text-align: center;
+}
+
+header {
+  background-color: white;
+  width: 400px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 0.2em 0;
+  margin-top: 0.5em;
+}
+
+main {
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+  margin-top: 1.5em;
+}
+
+label {
+  display: block;
+  padding: 1em 0 0.5em 0;
+  font-size: 1.2em;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid rgb(255, 181, 180);
+}
+
+form button {
+  margin: 0.5em 0 0.5em 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid rgb(255, 181, 180);
+  color: darksalmon;
+}
+
+#task-list {
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 0.5em 0 0 0.8em;
+}
+
+p {
+  padding: 0.4em 0 0.4em 1.2em;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid rgb(255, 181, 180);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.trash {
+  border: none;
+  background-color: white;
+}
+
+.trash,
+p {
+  display: inline-block;
+}
